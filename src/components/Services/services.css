@@ -1,0 +1,20 @@
+.services-section{
+    margin-top: 14%;
+    /* height: 100vh; */
+    margin-bottom: 15%;
+}
+.h2{
+    text-align: center !important;
+    font-weight: 700 !important;
+    font-size: 300%;
+    letter-spacing: 10px;
+    font-family: 'Oswald', sans-serif;  
+}
+.services-icon{
+    font-size: 300%;
+    text-align: center;
+}
+
+.card{
+    border: none !important;
+}

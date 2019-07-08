@@ -1,0 +1,35 @@
+/* linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)) */
+.header{
+    background-image:  url(./bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+    background-attachment: fixed;
+    margin-bottom: 4%; 
+}
+.header_description{
+    position: absolute;
+    font-weight: 700;
+    font-size: 300%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 10px;
+}
+.smaller_description{
+    margin-top: 3%;
+    text-align: center;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 40% !important;
+    letter-spacing: 5px;    
+}
+.primary{
+    color: black !important;
+    background: #fff !important;
+    border: 2px solid black !important;
+    font-weight: 700 !important;
+}

@@ -1,17 +1,17 @@
 import React from 'react';
 import './footer.css'
 
+
 const Footer = ()=>{
-	const date = new Date();
-	const currentYear = date.getFullYear();
-	return(
-		<div>
-			<footer className= 'footer'>
-				<p className= 'footer_text'>  Copyright &copy; {currentYear} by
-      			<a className ="footer_link" target="blank" href="https://www.olamidesamuel.herokuapp.com"> Olamide Samuel.</a></p>
-			</footer>
-		</div>
-		)
+   
+    return(
+        <div>
+            <div className= "footer">
+                <p class="footer_text"> Copyright {new Date().getFullYear() } Alpha Devs</p>
+            </div>
+        </div>
+    )
 }
+
 
 export default Footer;

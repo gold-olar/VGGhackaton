@@ -1,26 +1,10 @@
 .logo{
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-    font-weight: 900;
-    font-size: 120%;
-    color: #fff;
-
+	font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+	font-size: 300%;
+	letter-spacing: 5px;
 }
-.logo:hover{
-	color: #fff;
+.nav-bar-link{
+	color: black !important;
+	text-transform: capitalize;
 }
-.NavLink{
-	cursor: pointer;
-	font-weight: 900;
-	color: #fff !important;
-	border-bottom: 4px solid transparent;
-	transition: 0.3s;
-}
-.NavLink:hover{
-	color: #5a6268 !important;
-	/*border-bottom: 4px solid #fff;
-*/
-}
-.navbar{
-	background: black;
-	} 
