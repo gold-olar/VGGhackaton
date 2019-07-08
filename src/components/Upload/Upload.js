@@ -1,10 +1,12 @@
 import React from 'react';
 import './upload.css'
 import { Button, Form, FormGroup,  Input, FormText, Card, Container, Row,Col } from 'reactstrap';
+import {Link } from 'react-router-dom';
 
 
 
-const Upload = () => {
+
+const Upload = ({RouteChange}) => {
     return (
         <div className="upload">
             <h2 className="h2">UPLOAD </h2> 
@@ -20,7 +22,9 @@ const Upload = () => {
                                     Upload an image that contains what you want to research on.
                          </FormText>
                             </FormGroup>
-                            <Button> UPLOAD </Button>
+                           <Link to="/definitions">
+                           <Button> UPLOAD </Button>
+                           </Link>
                         </Form>
                     </Card>
                     </Col>

@@ -7,7 +7,7 @@ const Footer = ()=>{
     return(
         <div>
             <div className= "footer">
-                <p class="footer_text"> Copyright {new Date().getFullYear() } Alpha Devs</p>
+                <p className="footer_text"> Copyright {new Date().getFullYear() } Alpha Devs</p>
             </div>
         </div>
     )

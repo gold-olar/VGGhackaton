@@ -30,7 +30,7 @@ class NavigationBar extends React.Component {
                 <NavLink className="nav-bar-link" href="/">UPLOAD </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink className="nav-bar-link" href="/">Or Fuck off</NavLink>
+                <NavLink className="nav-bar-link" href="/">OR FUCK OFF</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

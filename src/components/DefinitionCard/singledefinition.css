@@ -1,0 +1,10 @@
+.word{
+    font-weight: 500;
+    font-size: 120%;
+    text-decoration: bolder;
+}
+.definition-card-1{
+    margin-top: 2%;
+    width: 80%;
+    margin: auto;
+}

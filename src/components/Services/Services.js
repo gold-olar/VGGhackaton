@@ -17,7 +17,7 @@ class Services extends React.Component {
                     <Row>
                         <Col xs="6" sm="4">
                             <Card className="card" body>
-                                <CardTitle className="services-icon"><ion-icon size="large" name="school"></ion-icon></CardTitle>
+                                <CardTitle className="services-icon"><ion-icon size= 'large' name="list-box"></ion-icon></CardTitle>
                                 <CardText> Get definitions of the key words from the file you upload.</CardText>
 
                             </Card>
@@ -25,7 +25,7 @@ class Services extends React.Component {
                         </Col>
                         <Col xs="6" sm="4">
                             <Card className="card" body>
-                                <CardTitle className="services-icon"><ion-icon size="large" name="school"></ion-icon></CardTitle>
+                                <CardTitle className="services-icon"><ion-icon size="large" name="checkmark-circle-outline"></ion-icon></CardTitle>
                                 <CardText> Take a quick quiz on the context of whatever you upload.</CardText>
 
                             </Card>

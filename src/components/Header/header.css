@@ -1,6 +1,5 @@
-/* linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)) */
 .header{
-    background-image:  url(./bg1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.5)), url(./bg1.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -33,3 +32,27 @@
     border: 2px solid black !important;
     font-weight: 700 !important;
 }
+/*Smallest devices */
+@media (min-width: 300px) { 
+	
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+}
+ /*Medium devices (tablets, 768px and below)*/
+@media (max-width: 768px) { 
+    .header_description{
+        font-size: 200% !important;
+    }
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {  
+	
+}
+@media (max-width: 768px) { 
+ 
+ }
